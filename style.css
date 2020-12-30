@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Redressed&display=swap');
+.container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  header {
+    background-image: url("img/4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 210px;
+    padding-top: 20px;
+  }
+  .navbar-brand img {
+      width: 80px;
+      height: 50px;
+  }
+  form .icon i {
+    color: #2F4F4F;
+    font-size: 35px;
+    margin-left: 20px;
+
+  }
+  form .icon i:hover {
+    color: #a2d8d8;
+
+  }
+  
+  .show{
+      margin: auto;
+  }
+  .show img{
+      width: 350px;
+      height: 350px;
+
+  }
+  
+  .show .men {
+      margin: 100px;
+  }
+  
+  .main {
+    margin-top: 150px;
+    padding-bottom: 150px;
+    
+  }
+  .main #women {
+    font: 300 52px 'Dancing Script', cursive;
+    color: #8B4513;
+  }
+  .main #new {
+    font: 300 52px "Montserrat", sans-serif;
+    color: #8B4513;
+
+  }
+  main {
+    background-color: #FFF;
+    padding-bottom: 150px;
+  }
+  main img {
+      padding-top: 50px;
+      width: 270px;
+      height: 500px;
+      padding-bottom: 50px;
+      
+  }
+  
+  .products {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 70px;
+    
+  }
+  .proimg {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .proimg span i{
+    color: #000;
+    position: absolute;
+    right: 40px;
+    bottom: 15px;
+    font-size: 30px;
+    cursor: pointer;
+ }
+ .proimg span i:hover{
+    color: gray;
+    
+ }
+  .proimg a i{
+    color: #000;
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+    font-size: 30px;
+ }
+ .proimg a i:hover{
+    color: gray;
+    
+ }
+
+  .product {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    
+  }
+  .product h3 {
+    font: 600 20px "Montserrat", sans-serif;
+  
+    color: #323232;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  }
+  #load {
+    display: block;
+    margin: auto;
+  }
+  .info {
+      
+      display: flex;
+      margin: auto;
+  }
+  .help {
+      margin-left: 100px;
+      margin-right: 140px;
+  }
+  .get {
+      width: 280px;
+      margin-right: 100px;
+  }
+  .get a i {
+      color: grey;
+      margin: 8px;
+      font-size: 20px;
+  }
+  footer {
+      background-color: #000;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: block;
+      margin: auto;
+     
+  }
+  footer p {
+      color: grey;
+     
+  }
+  footer h4{
+      color: #fff;
+      padding-bottom: 15px;
+  }
+  footer hr {
+      color: grey;
+  }
+
+  /**/
+  @media only screen and (max-width: 768px){
+        main img {
+            width: 100%;
+            height: auto;
+        }
+        .help {
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .get {
+            margin-right: 10px;
+            width: 200px;
+        }
+        .show img {
+            width: 100%;
+            height: auto;
+        }
+        .show .men {
+            margin: 0;
+        }
+
+
+  }
